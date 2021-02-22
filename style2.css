@@ -10,6 +10,20 @@
     margin-left: 0;
     position: relative;
 } 
+
+/* .doge{
+    position: relative;
+}
+.doge img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+} */
+body{
+    background-image: url('img/doge.jpg');
+}
+
 /* header:not(div){
     opacity: 0.2;
 } 
@@ -61,7 +75,7 @@ section,nav, footer{
 }
 
 section > span{
-    background-color: yellow;
+    background-color: rgb(251, 199, 27);
 }
 table{
     border: none;
@@ -69,7 +83,7 @@ table{
 th{
     text-align: left;
     color: white;
-    background-color: #20a9e5;
+    background-color: #9c4c00ad;
 }
 td{
     height: 50px;
@@ -79,10 +93,10 @@ td:nth-last-child(1){
     width: 100%;
 }
 tr:nth-child(2){
-    background-color: #b1e5f2;
+    background-color: #fdaf31ad;
 }
 tr:nth-last-child(1){
-    background-color: #b1e5f2;
+    background-color: #fdaf31ad;
 }
 section > h3{
     opacity: 0.6;
@@ -98,13 +112,11 @@ section > h3{
     background-color: rgba(0, 0, 0, 0.377);
 }
 .imm > a:link{
-    color: rgb(0, 0, 0);
 }
 .imm > a:visited{
-    color: rgb(0, 0, 0);
 }
 .imm > a:hover{
-    color: rgb(0, 0, 0);
+    color: rgb(129, 116, 243);
 }
 .crack{
     background-image: url('img/Bitcoin-Elon-Musk-640x360.jpg');
@@ -112,11 +124,11 @@ section > h3{
 .dance{
     background-image: url('img/dance.jpg');
 }
-div > div{
+.imm > a{
     color: white;
     font-size: 200%;
     position: absolute;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 15px;
 }
 

@@ -39,15 +39,15 @@ section,nav, footer{
     font-weight: bold;
     opacity: 0.6;
 }
-a:link{
+#cit > a:link{
     color: rgb(35, 119, 245);
     text-decoration: none;
 }
-a:visited{
+#cit > a:visited{
     color: rgb(35, 119, 245);
     text-decoration: none;
 }
-a:hover{
+#cit > a:hover{
     color: rgb(16, 57, 119);
 }
 
@@ -88,15 +88,29 @@ section > h3{
     opacity: 0.6;
 }
 .imm{
-    height: 200px;
-    width: 300px;
+    height: 30%;
+    width: auto;
     margin-top: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
-.monitor{
-    background-image: url('img/monitor.jpg');
+.imm > div{
+    background-color: rgba(0, 0, 0, 0.377);
 }
-.graph{
-    background-image: url('img/graph.jpg');
+.imm > a:link{
+    color: rgb(0, 0, 0);
+}
+.imm > a:visited{
+    color: rgb(0, 0, 0);
+}
+.imm > a:hover{
+    color: rgb(0, 0, 0);
+}
+.crack{
+    background-image: url('img/Bitcoin-Elon-Musk-640x360.jpg');
+}
+.dance{
+    background-image: url('img/dance.jpg');
 }
 div > div{
     color: white;

@@ -3,9 +3,12 @@
     margin: 0;
     padding: 0;
 }
-/* body:not(header){
+body{
     margin-left: 10%;
-} */
+}
+/* body:not(header){
+    margin-left: 15%;
+} ??????????????????????????????????*/
  header{
     background-color: #4ea1ff;
     background-image: url("img/pattern.png");
@@ -16,16 +19,10 @@
 } 
 /* header:not(div){
     opacity: 0.2;
-} */
+} 
+Y U NO WORK?????
+*/
 
-/* .background{
-    background-color: #4ea0ff;
-    background-image: url("img/pattern.png");
-    background-size: cover;
-    height: 15vh;
-    margin-left: 0;
-    position: relative;
-} */
 div > img{
     height: 50%;
     position: absolute;
@@ -35,4 +32,15 @@ div > img{
 #titolo{
     font-weight: bolder;
     font-size: 50px;
+}
+#cit{
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0.6;
+}
+#cit > span{
+    color: rgb(35, 119, 245);
+}
+#datacit{
+    opacity: 0.6;
 }

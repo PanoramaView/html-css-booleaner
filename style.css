@@ -23,7 +23,7 @@ div > img{
     left: 10%;
     bottom: 10%;
 }
-section,nav{
+section,nav, footer{
     margin-top:20px;
     margin-left: 10%;
     margin-right: 10%;
@@ -54,9 +54,16 @@ a:hover{
 #datacit{
     opacity: 0.6;
 }
+
+ /* questo non mi cambia nulla o.0, devo togliere il wordwrap 
+*{
+    word-wrap: break-word;
+} -----------------------------------------------*/
 section .img{
     display: inline-block;
-}
+} 
+/* -------------------------------------------- */
+
 section > span{
     background-color: yellow;
 }
@@ -101,4 +108,9 @@ div > div{
     position: absolute;
     margin-left: 10px;
     margin-top: 15px;
+}
+
+footer{
+    text-align: end;
+    margin-bottom: 5%;
 }

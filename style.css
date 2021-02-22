@@ -1,3 +1,18 @@
-body{
+*{
     font-size: 'Open Sans';
+    margin: 0;
+    padding: 0;
+}
+body:not(header){
+    margin-left: 10%;
+}
+header{
+    background-color: #4ea0ff;
+    background-image: url("img/pattern.png");
+    background-size: cover;
+    height: 10vh;
+    margin-left: 0;
+}
+header > img{
+    height: 50px;
 }

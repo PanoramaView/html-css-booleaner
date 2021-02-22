@@ -1,5 +1,5 @@
 *{
-    font-size: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
     margin: 0;
 }
  header{
@@ -55,14 +55,10 @@ a:hover{
     opacity: 0.6;
 }
 
- /* questo non mi cambia nulla o.0, devo togliere il wordwrap 
-*{
-    word-wrap: break-word;
-} -----------------------------------------------*/
-section .img{
-    display: inline-block;
-} 
-/* -------------------------------------------- */
+.elon{
+    height: 300px;
+    width: auto;
+}
 
 section > span{
     background-color: yellow;

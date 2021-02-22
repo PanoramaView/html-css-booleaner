@@ -1,19 +1,12 @@
 *{
     font-size: 'Open Sans';
     margin: 0;
-    padding: 0;
 }
-body{
-    margin-left: 10%;
-}
-/* body:not(header){
-    margin-left: 15%;
-} ??????????????????????????????????*/
  header{
     background-color: #4ea1ff;
     background-image: url("img/pattern.png");
-    background-size: 40%;
-    height: 120px;
+    background-size: 35%;
+    height: 100px;
     margin-left: 0;
     position: relative;
 } 
@@ -21,14 +14,22 @@ body{
     opacity: 0.2;
 } 
 Y U NO WORK?????
+PROF!!! NON MI FUNZIONA
 */
 
 div > img{
     height: 50%;
     position: absolute;
-    left: 15%;
+    left: 10%;
     bottom: 10%;
 }
+section,nav{
+    margin-top:20px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
 #titolo{
     font-weight: bolder;
     font-size: 50px;
@@ -38,9 +39,66 @@ div > img{
     font-weight: bold;
     opacity: 0.6;
 }
-#cit > span{
+a:link{
     color: rgb(35, 119, 245);
+    text-decoration: none;
 }
+a:visited{
+    color: rgb(35, 119, 245);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(16, 57, 119);
+}
+
 #datacit{
     opacity: 0.6;
+}
+section .img{
+    display: inline-block;
+}
+section > span{
+    background-color: yellow;
+}
+table{
+    border: none;
+}
+th{
+    text-align: left;
+    color: white;
+    background-color: #20a9e5;
+}
+td{
+    height: 50px;
+    width: 20%;
+}
+td:nth-last-child(1){
+    width: 100%;
+}
+tr:nth-child(2){
+    background-color: #b1e5f2;
+}
+tr:nth-last-child(1){
+    background-color: #b1e5f2;
+}
+section > h3{
+    opacity: 0.6;
+}
+.imm{
+    height: 200px;
+    width: 300px;
+    margin-top: 10px;
+}
+.monitor{
+    background-image: url('img/monitor.jpg');
+}
+.graph{
+    background-image: url('img/graph.jpg');
+}
+div > div{
+    color: white;
+    font-size: 200%;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 15px;
 }

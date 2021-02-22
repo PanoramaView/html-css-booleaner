@@ -3,16 +3,36 @@
     margin: 0;
     padding: 0;
 }
-body:not(header){
+/* body:not(header){
     margin-left: 10%;
-}
-header{
+} */
+ header{
+    background-color: #4ea1ff;
+    background-image: url("img/pattern.png");
+    background-size: 40%;
+    height: 120px;
+    margin-left: 0;
+    position: relative;
+} 
+/* header:not(div){
+    opacity: 0.2;
+} */
+
+/* .background{
     background-color: #4ea0ff;
     background-image: url("img/pattern.png");
     background-size: cover;
-    height: 10vh;
+    height: 15vh;
     margin-left: 0;
+    position: relative;
+} */
+div > img{
+    height: 50%;
+    position: absolute;
+    left: 15%;
+    bottom: 10%;
 }
-header > img{
-    height: 50px;
+#titolo{
+    font-weight: bolder;
+    font-size: 50px;
 }

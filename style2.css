@@ -114,10 +114,7 @@ section > h3{
 .imm > div{
     background-color: rgba(0, 0, 0, 0.377);
 }
-.imm > a:link{
-}
-.imm > a:visited{
-}
+
 .imm > a:hover{
     color: rgb(129, 116, 243);
 }

@@ -2,7 +2,7 @@
     font-size: 'Open Sans', sans-serif;
     margin: 0;
 }
- header{
+ .background{
     background-color: #4ea1ff;
     background-image: url("img/pattern.png");
     background-size: 35%;
@@ -10,12 +10,12 @@
     margin-left: 0;
     position: relative;
 } 
-/* header:not(div){
+/* non capisco */
+header *:not(img){
     opacity: 0.2;
-} 
-Y U NO WORK?????
-PROF!!! NON MI FUNZIONA
-*/
+}
+
+
 
 div > img{
     height: 50%;
